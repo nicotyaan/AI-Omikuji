@@ -1,6 +1,6 @@
 function getRandomImage () {
     const number = Math.floor(Math.random() * 7);
-    const imagePath = "./images/omikuji_" + number.toString()+".png";
+    const imagePath = "./images/omikuji" + number.toString()+".png";
     return imagePath;
 }
 
